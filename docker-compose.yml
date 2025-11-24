@@ -1,0 +1,7 @@
+services:
+  k8s-api:
+    container_name: k8s-demo
+    image: k8s-demos:1.0.0
+    ports:
+    - "8080:8080"
+   

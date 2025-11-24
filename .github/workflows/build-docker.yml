@@ -29,7 +29,6 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v6
         with:
-          context: .               # where your Dockerfile lives
           file: .docker/backend/Dockerfile       # path to Dockerfile (adjust if needed)
           push: true                # push the image after building
           tags: |
